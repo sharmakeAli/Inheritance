@@ -36,4 +36,10 @@ public class Preson {
         this.age=age;
         this.phone=phone;
     }
+    public  void display(){
+        System.out.println("name is :"+ this.getName() );
+        System.out.println("age is :"+ this.getAge() );
+        System.out.println("phone is :"+ this.getPhone() );
+
+    }
 }
